@@ -16,7 +16,7 @@ void getLBAPrompt()
 
 void outputCHS()
 {
-	printf("%s%d\n","Cylinder / Track: ",lbaValue / (HPC * SPT));
+	printf("\n%s%d\n","Cylinder / Track: ",lbaValue / (HPC * SPT));
 	printf("%s%d\n","Head: ",lbaValue % (HPC * SPT) / SPT);
 	printf("%s%d\n","Sector: ", lbaValue % (HPC * SPT) % SPT + 1);
 }

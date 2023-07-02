@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-int cylinder, HPC, SPT;
+int cylinder, head, sector, HPC, SPT;
 
 void getCHSPrompt();
 void outputLBA();
